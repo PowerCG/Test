@@ -15,6 +15,7 @@
 
 @implementation SecondViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -24,6 +25,7 @@
     NSLog(@"不要乱叫");
     
 }
+
 
 //屏幕旋转(在基视图要写，此处可不写)
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation

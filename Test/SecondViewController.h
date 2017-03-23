@@ -10,4 +10,10 @@
 
 @interface SecondViewController : UIViewController
 
+@property (nonatomic, copy) NSString *str;
+
+- (void)loadJiu:(NSString *)string andArray:(NSArray *)array;
+
+- (NSString *)jsan:(NSArray *)array dict:(NSDictionary *)dict;
+
 @end
