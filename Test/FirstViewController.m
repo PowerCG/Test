@@ -19,6 +19,8 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor redColor];
+    
+    NSLog(@"郜飞机");
 }
 
 - (void)viewWillAppear:(BOOL)animated
