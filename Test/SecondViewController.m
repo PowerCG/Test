@@ -19,6 +19,8 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor blueColor];
+    
+    NSLog(@"请叫我刚总");
 }
 
 //屏幕旋转(在基视图要写，此处可不写)
