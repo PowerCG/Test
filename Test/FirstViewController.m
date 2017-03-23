@@ -21,6 +21,7 @@
     self.view.backgroundColor = [UIColor redColor];
     
     NSLog(@"郜飞机");
+    NSLog(@"郑智");
 }
 
 - (void)viewWillAppear:(BOOL)animated
