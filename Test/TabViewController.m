@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSLog(@">>>>>>>   ");
 }
 
 //屏幕旋转(在基视图要写)
