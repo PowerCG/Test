@@ -161,7 +161,8 @@
 				TargetAttributes = {
 					FFEF24381E8128C300266CB3 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 3472FPLT8A;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -355,11 +356,15 @@
 			baseConfigurationReference = 5891E473E2F30E83A6920FC8 /* Pods-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3472FPLT8A;
 				INFOPLIST_FILE = Test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZSWL.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e13daa50-fd8a-42a7-b068-98cc9183f909";
+				PROVISIONING_PROFILE_SPECIFIER = tianyue_people_develop;
 			};
 			name = Debug;
 		};
@@ -368,11 +373,15 @@
 			baseConfigurationReference = 6CBD46B0D431927D7C6CD78A /* Pods-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3472FPLT8A;
 				INFOPLIST_FILE = Test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZSWL.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e13daa50-fd8a-42a7-b068-98cc9183f909";
+				PROVISIONING_PROFILE_SPECIFIER = tianyue_people_develop;
 			};
 			name = Release;
 		};
