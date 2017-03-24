@@ -43,7 +43,11 @@
     
     NSLog(@"hello");
     NSLog(@"HELLO!!!");
+
     NSLog(@"123");
+
+    NSLog(@"ZHANG WEN");
+
     
     return YES;
 }
