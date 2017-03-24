@@ -41,6 +41,8 @@
     
     [self.window makeKeyAndVisible];
     
+    NSLog(@"hello");
+    
     return YES;
 }
 
